@@ -1,121 +1,199 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-      
-    </head>
-    <body>
-       
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VinoAnalytics | Wine Predictor</title>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary: #722f37; /* Wine Red */
+            --primary-light: #9b444d;
+            --bg: #0f0a0a;
+            --glass: rgba(255, 255, 255, 0.03);
+            --glass-border: rgba(255, 255, 255, 0.08);
+            --text: #f8f1f1;
+            --text-dim: #a09595;
+            --accent: #e2b04a; /* Gold */
+        }
 
-
-        <!-- Main Content-->
-        <div class="container px-4 px-lg-5">
-
-           <!DOCTYPE html>
-<html>
-
-<body class="form-v9">
-	<div class="page-content">
-		<div class="form-v9-content" style="background-image: url('static/assets/img/form-v9.jpg')">
-			<form class="form-detail" action="/predict" method="post">
-				<h2>Please Fill The Information</h2>
-				<div class="form-row-total">
-
-					<div class="form-row">
-                        <label for="fixed_acidity"> Fixed Acidity:</label>
-						<input type="text" name="fixed_acidity" id="fixed_acidity" class="input-text" placeholder="fixed_acidity" required>
-					</div>
-
-					<div class="form-row">
-                        <label for="volatile_acidity"> Volatile Acidity:</label>
-						<input type="text" name="volatile_acidity" id="volatile_acidity" class="input-text" placeholder="volatile_acidity" required>
-					</div>
-
-				</div>
-
-
-				<div class="form-row-total">
-
-                    <div class="form-row">
-                        <label for="citric_acid"> Citric Acid:</label>
-						<input type="text" name="citric_acid" id="citric_acid" class="input-text" placeholder="citric_acid" required>
-					</div>
-
-
-                    <div class="form-row">
-                        <label for="residual_sugar"> Residual Sugar:</label>
-						<input type="text" name="residual_sugar" id="residual_sugar" class="input-text" placeholder="residual_sugar" required>
-					</div>
-
-				</div>
-
-
-                <div class="form-row-total">
-
-                    <div class="form-row">
-                        <label for="chlorides"> Chlorides:</label>
-						<input type="text" name="chlorides" id="chlorides" class="input-text" placeholder="chlorides" required>
-					</div>
-
-                    <div class="form-row">
-                        <label for="free_sulfur_dioxide"> Free Sulfur Dioxide:</label>
-						<input type="text" name="free_sulfur_dioxide" id="free_sulfur_dioxide" class="input-text" placeholder="free_sulfur_dioxide" required>
-					</div>
-
-				</div>
-
-
-                <div class="form-row-total">
-
-                    <div class="form-row">
-                        <label for="total_sulfur_dioxide"> Total Sulfur Dioxide:</label>
-						<input type="text" name="total_sulfur_dioxide" id="total_sulfur_dioxide" class="input-text" placeholder="total_sulfur_dioxide" required>
-					</div>
-
-                    <div class="form-row">
-                        <label for="density"> Density:</label>
-						<input type="text" name="density" id="density" class="input-text" placeholder="density" required>
-					</div>
-
-				</div>
-				
-
-
-                <div class="form-row-total">
-
-                    <div class="form-row">
-                        <label for="pH"> pH:</label>
-						<input type="text" name="pH" id="pH" class="input-text" placeholder="pH" required>
-					</div>
-
-                    <div class="form-row">
-                        <label for="sulphates"> Sulphates:</label>
-						<input type="text" name="sulphates" id="sulphates" class="input-text" placeholder="sulphates" required>
-					</div>
-
-				</div>
-
-
-                <div class="form-row-total">
-
-                    <div class="form-row">
-                        <label for="alcohol"> Alcohol:</label>
-						<input type="text" name="alcohol" id="alcohol" class="input-text" placeholder="alcohol" required>
-					</div>
-
-
-				</div>
-
-
-				<div class="form-row-last">
-					<input type="submit" name="register" class="register" value="Predict">
-				</div>
-			</form>
-		</div>
-	</div>
-</body><!-- This templates was made by Colorlib (https://colorlib.com) -->
-</html>
-
+        * { box-sizing: border-box; margin: 0; padding: 0; }
         
+        body {
+            background: radial-gradient(circle at top right, #2c1619, #0f0a0a);
+            color: var(--text);
+            font-family: 'Plus Jakarta Sans', sans-serif;
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
 
+        .container {
+            width: 100%;
+            max-width: 900px;
+            background: var(--glass);
+            backdrop-filter: blur(20px);
+            border: 1px solid var(--glass-border);
+            border-radius: 24px;
+            padding: 40px;
+            box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.5);
+        }
 
-       
+        header {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            font-weight: 700;
+            background: linear-gradient(to right, #fff, var(--accent));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            margin-bottom: 8px;
+        }
+
+        .subtitle { color: var(--text-dim); font-size: 1rem; }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            margin-bottom: 30px;
+        }
+
+        .input-group {
+            background: rgba(255,255,255,0.02);
+            border: 1px solid var(--glass-border);
+            border-radius: 12px;
+            padding: 12px 16px;
+            transition: all 0.3s ease;
+        }
+
+        .input-group:focus-within {
+            border-color: var(--accent);
+            background: rgba(255,255,255,0.05);
+        }
+
+        label {
+            display: block;
+            font-size: 0.75rem;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            color: var(--accent);
+            margin-bottom: 6px;
+        }
+
+        input {
+            background: transparent;
+            border: none;
+            outline: none;
+            color: white;
+            font-size: 1.1rem;
+            width: 100%;
+            font-weight: 600;
+        }
+
+        .actions {
+            display: flex;
+            gap: 15px;
+            margin-top: 20px;
+        }
+
+        button {
+            flex: 1;
+            padding: 16px;
+            border-radius: 12px;
+            border: none;
+            font-weight: 700;
+            cursor: pointer;
+            transition: all 0.3s;
+            font-family: inherit;
+        }
+
+        .btn-predict {
+            background: var(--primary);
+            color: white;
+            box-shadow: 0 4px 15px rgba(114, 47, 55, 0.4);
+        }
+
+        .btn-predict:hover {
+            background: var(--primary-light);
+            transform: translateY(-2px);
+        }
+
+        .btn-random {
+            background: rgba(255,255,255,0.05);
+            color: var(--text);
+            border: 1px solid var(--glass-border);
+        }
+
+        .btn-random:hover { background: rgba(255,255,255,0.1); }
+
+        @keyframes flash {
+            0% { border-color: var(--accent); }
+            100% { border-color: var(--glass-border); }
+        }
+        .flash { animation: flash 0.5s ease-out; }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <header>
+        <h1>VinoAnalytics</h1>
+        <p class="subtitle">Precision Enology Prediction Engine</p>
+    </header>
+
+    <form action="/predict" method="post">
+        <div class="grid">
+            <div class="input-group"><label>Fixed Acidity</label><input type="number" step="0.01" name="fixed_acidity" id="fixed_acidity" placeholder="7.4" required></div>
+            <div class="input-group"><label>Volatile Acidity</label><input type="number" step="0.01" name="volatile_acidity" id="volatile_acidity" placeholder="0.7" required></div>
+            <div class="input-group"><label>Citric Acid</label><input type="number" step="0.01" name="citric_acid" id="citric_acid" placeholder="0.0" required></div>
+            <div class="input-group"><label>Residual Sugar</label><input type="number" step="0.01" name="residual_sugar" id="residual_sugar" placeholder="1.9" required></div>
+            <div class="input-group"><label>Chlorides</label><input type="number" step="0.001" name="chlorides" id="chlorides" placeholder="0.07" required></div>
+            <div class="input-group"><label>Free SO₂</label><input type="number" step="1" name="free_sulfur_dioxide" id="free_sulfur_dioxide" placeholder="11" required></div>
+            <div class="input-group"><label>Total SO₂</label><input type="number" step="1" name="total_sulfur_dioxide" id="total_sulfur_dioxide" placeholder="34" required></div>
+            <div class="input-group"><label>Density</label><input type="number" step="0.0001" name="density" id="density" placeholder="0.99" required></div>
+            <div class="input-group"><label>pH Level</label><input type="number" step="0.01" name="pH" id="pH" placeholder="3.5" required></div>
+            <div class="input-group"><label>Sulphates</label><input type="number" step="0.01" name="sulphates" id="sulphates" placeholder="0.5" required></div>
+            <div class="input-group"><label>Alcohol %</label><input type="number" step="0.01" name="alcohol" id="alcohol" placeholder="9.4" required></div>
+        </div>
+
+        <div class="actions">
+            <button type="button" class="btn-random" id="randomBtn">Random Sample</button>
+            <button type="submit" class="btn-predict">Analyze Vintage</button>
+        </div>
+    </form>
+</div>
+
+<script>
+    const ranges = {
+        fixed_acidity: {min: 4, max: 15, dec: 1},
+        volatile_acidity: {min: 0.1, max: 1.2, dec: 2},
+        citric_acid: {min: 0, max: 1, dec: 2},
+        residual_sugar: {min: 1, max: 15, dec: 1},
+        chlorides: {min: 0.01, max: 0.2, dec: 3},
+        free_sulfur_dioxide: {min: 1, max: 70, dec: 0},
+        total_sulfur_dioxide: {min: 6, max: 200, dec: 0},
+        density: {min: 0.990, max: 1.003, dec: 4},
+        pH: {min: 2.8, max: 4.0, dec: 2},
+        sulphates: {min: 0.3, max: 1.5, dec: 2},
+        alcohol: {min: 8, max: 14.5, dec: 1}
+    };
+
+    document.getElementById('randomBtn').addEventListener('click', () => {
+        Object.keys(ranges).forEach(id => {
+            const r = ranges[id];
+            const val = (Math.random() * (r.max - r.min) + r.min).toFixed(r.dec);
+            const el = document.getElementById(id);
+            el.value = val;
+            el.parentElement.classList.add('flash');
+            setTimeout(() => el.parentElement.classList.remove('flash'), 500);
+        });
+    });
+</script>
+</body>
+</html>

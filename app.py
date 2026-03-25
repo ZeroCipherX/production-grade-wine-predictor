@@ -1,11 +1,34 @@
-from flask import Flask, render_template, request
-import os 
+from flask import Flask, render_template, request, jsonify
+import os
 import numpy as np
-import pandas as pd
 from src.productiongradewinepredictor.pipeline.prediction_pipeline import PredictionPipeline
+import requests
+from dotenv import load_dotenv
 
+load_dotenv()
+MISTRAL_API_KEY = os.getenv("MISTRAL_API_KEY")
+if not MISTRAL_API_KEY:
+    raise RuntimeError("Set MISTRAL_API_KEY in .env")
 
-app = Flask(__name__) # initializing a flask app
+app = Flask(__name__)  # initializing a flask app
+
+@app.route("/ai_sommelier", methods=["POST"])
+def ai_sommelier():
+    score = request.json.get("score")
+    prompt = f"A wine has a quality score of {score}. Briefly explain what this means for taste and market value. Max 50 words and dont use any dashes."
+    resp = requests.post(
+        "https://api.mistral.ai/v1/chat/completions",
+        headers={
+            "Content-Type": "application/json",
+            "Authorization": f"Bearer {MISTRAL_API_KEY}"
+        },
+        json={
+            "model": "mistral-tiny",
+            "messages": [{"role": "user", "content": prompt}]
+        },
+        timeout=10
+    )
+    return jsonify(resp.json()), resp.status_code
 
 # end point / api / route
 @app.route('/',methods=['GET'])  # route to display the home page
@@ -52,7 +75,8 @@ def index():
     else:
         return render_template('index.html')
 
-
 if __name__ == "__main__":
 	
 	app.run(host="0.0.0.0", port = 8080)
+     
+

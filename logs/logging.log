@@ -890,3 +890,103 @@ x==========x]
 [2026-03-25 19:25:45,796: INFO: _internal: 127.0.0.1 - - [25/Mar/2026 19:25:45] "GET / HTTP/1.1" 200 -]
 [2026-03-25 19:25:45,836: INFO: _internal: 127.0.0.1 - - [25/Mar/2026 19:25:45] "[33mGET /static/assets/img/form-v9.jpg HTTP/1.1[0m" 404 -]
 [2026-03-25 19:25:57,332: INFO: _internal: 127.0.0.1 - - [25/Mar/2026 19:25:57] "POST /predict HTTP/1.1" 200 -]
+[2026-03-25 19:33:22,737: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.0.46:8080]
+[2026-03-25 19:33:22,738: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2026-03-25 19:33:30,203: INFO: _internal: 127.0.0.1 - - [25/Mar/2026 19:33:30] "GET / HTTP/1.1" 200 -]
+[2026-03-25 19:39:13,222: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.0.46:8080]
+[2026-03-25 19:39:13,223: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2026-03-25 19:39:17,477: INFO: _internal: 127.0.0.1 - - [25/Mar/2026 19:39:17] "GET / HTTP/1.1" 200 -]
+[2026-03-25 19:39:52,350: INFO: _internal: 127.0.0.1 - - [25/Mar/2026 19:39:52] "POST /predict HTTP/1.1" 200 -]
+[2026-03-26 00:27:43,976: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.0.46:8080]
+[2026-03-26 00:27:43,978: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2026-03-26 00:27:46,063: INFO: _internal: 127.0.0.1 - - [26/Mar/2026 00:27:46] "GET / HTTP/1.1" 200 -]
+[2026-03-26 00:27:47,505: INFO: _internal: 127.0.0.1 - - [26/Mar/2026 00:27:47] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -]
+[2026-03-26 00:28:02,989: INFO: _internal: 127.0.0.1 - - [26/Mar/2026 00:28:02] "POST /predict HTTP/1.1" 200 -]
+[2026-03-26 00:29:29,136: INFO: _internal: 127.0.0.1 - - [26/Mar/2026 00:29:29] "GET / HTTP/1.1" 200 -]
+[2026-03-26 00:29:45,706: INFO: _internal: 127.0.0.1 - - [26/Mar/2026 00:29:45] "POST /predict HTTP/1.1" 200 -]
+[2026-03-26 00:29:56,000: INFO: _internal: 127.0.0.1 - - [26/Mar/2026 00:29:55] "POST /predict HTTP/1.1" 200 -]
+[2026-03-26 00:30:04,116: INFO: _internal: 127.0.0.1 - - [26/Mar/2026 00:30:04] "GET / HTTP/1.1" 200 -]
+[2026-03-26 00:30:14,404: INFO: _internal: 127.0.0.1 - - [26/Mar/2026 00:30:14] "POST /predict HTTP/1.1" 200 -]
+[2026-03-26 00:30:26,108: INFO: _internal: 127.0.0.1 - - [26/Mar/2026 00:30:26] "POST /predict HTTP/1.1" 200 -]
+[2026-03-26 00:39:15,814: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.0.46:8080]
+[2026-03-26 00:39:15,814: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2026-03-26 00:39:18,406: INFO: _internal: 127.0.0.1 - - [26/Mar/2026 00:39:18] "GET / HTTP/1.1" 200 -]
+[2026-03-26 00:39:29,657: INFO: _internal: 127.0.0.1 - - [26/Mar/2026 00:39:29] "GET / HTTP/1.1" 200 -]
+[2026-03-26 00:39:40,341: INFO: _internal: 127.0.0.1 - - [26/Mar/2026 00:39:40] "POST /predict HTTP/1.1" 200 -]
+[2026-03-26 00:40:21,200: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.0.46:8080]
+[2026-03-26 00:40:21,200: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2026-03-26 00:40:23,858: INFO: _internal: 127.0.0.1 - - [26/Mar/2026 00:40:23] "GET / HTTP/1.1" 200 -]
+[2026-03-26 00:40:25,010: INFO: _internal: 127.0.0.1 - - [26/Mar/2026 00:40:25] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -]
+[2026-03-26 00:40:29,773: INFO: _internal: 127.0.0.1 - - [26/Mar/2026 00:40:29] "POST /predict HTTP/1.1" 200 -]
+[2026-03-26 00:40:44,318: INFO: _internal: 127.0.0.1 - - [26/Mar/2026 00:40:44] "GET / HTTP/1.1" 200 -]
+[2026-03-26 00:40:48,504: INFO: _internal: 127.0.0.1 - - [26/Mar/2026 00:40:48] "POST /predict HTTP/1.1" 200 -]
+[2026-03-26 00:43:31,598: INFO: _internal: 127.0.0.1 - - [26/Mar/2026 00:43:31] "POST /predict HTTP/1.1" 200 -]
+[2026-03-26 00:44:50,635: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.0.46:8080]
+[2026-03-26 00:44:50,636: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2026-03-26 00:44:53,937: INFO: _internal: 127.0.0.1 - - [26/Mar/2026 00:44:53] "GET / HTTP/1.1" 200 -]
+[2026-03-26 00:44:55,143: INFO: _internal: 127.0.0.1 - - [26/Mar/2026 00:44:55] "GET / HTTP/1.1" 200 -]
+[2026-03-26 00:44:57,997: INFO: _internal: 127.0.0.1 - - [26/Mar/2026 00:44:57] "POST /predict HTTP/1.1" 200 -]
+[2026-03-26 00:45:05,015: INFO: _internal: 127.0.0.1 - - [26/Mar/2026 00:45:05] "GET / HTTP/1.1" 200 -]
+[2026-03-26 00:45:09,072: INFO: _internal: 127.0.0.1 - - [26/Mar/2026 00:45:09] "POST /predict HTTP/1.1" 200 -]
+[2026-03-26 00:45:14,788: INFO: _internal: 127.0.0.1 - - [26/Mar/2026 00:45:14] "GET / HTTP/1.1" 200 -]
+[2026-03-26 00:45:18,135: INFO: _internal: 127.0.0.1 - - [26/Mar/2026 00:45:18] "POST /predict HTTP/1.1" 200 -]
+[2026-03-26 00:52:00,568: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.0.46:8080]
+[2026-03-26 00:52:00,568: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2026-03-26 00:52:03,254: INFO: _internal: 127.0.0.1 - - [26/Mar/2026 00:52:03] "GET / HTTP/1.1" 200 -]
+[2026-03-26 00:52:07,830: INFO: _internal: 127.0.0.1 - - [26/Mar/2026 00:52:07] "POST /predict HTTP/1.1" 200 -]
+[2026-03-26 00:52:19,341: INFO: _internal: 127.0.0.1 - - [26/Mar/2026 00:52:19] "GET / HTTP/1.1" 200 -]
+[2026-03-26 00:52:20,856: INFO: _internal: 127.0.0.1 - - [26/Mar/2026 00:52:20] "POST /predict HTTP/1.1" 200 -]
+[2026-03-26 01:01:49,100: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.0.46:8080]
+[2026-03-26 01:01:49,101: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2026-03-26 01:01:50,415: INFO: _internal: 127.0.0.1 - - [26/Mar/2026 01:01:50] "GET / HTTP/1.1" 200 -]
+[2026-03-26 01:01:53,361: INFO: _internal: 127.0.0.1 - - [26/Mar/2026 01:01:53] "GET / HTTP/1.1" 200 -]
+[2026-03-26 01:01:59,193: INFO: _internal: 127.0.0.1 - - [26/Mar/2026 01:01:59] "POST /predict HTTP/1.1" 200 -]
+[2026-03-26 01:02:03,417: INFO: _internal: 127.0.0.1 - - [26/Mar/2026 01:02:03] "POST /ai_sommelier HTTP/1.1" 200 -]
+[2026-03-26 01:02:25,386: INFO: _internal: 127.0.0.1 - - [26/Mar/2026 01:02:25] "POST /ai_sommelier HTTP/1.1" 200 -]
+[2026-03-26 01:02:31,164: INFO: _internal: 127.0.0.1 - - [26/Mar/2026 01:02:31] "GET / HTTP/1.1" 200 -]
+[2026-03-26 01:02:33,945: INFO: _internal: 127.0.0.1 - - [26/Mar/2026 01:02:33] "POST /predict HTTP/1.1" 200 -]
+[2026-03-26 01:02:38,131: INFO: _internal: 127.0.0.1 - - [26/Mar/2026 01:02:38] "POST /ai_sommelier HTTP/1.1" 200 -]
+[2026-03-26 01:02:46,998: INFO: _internal: 127.0.0.1 - - [26/Mar/2026 01:02:46] "POST /ai_sommelier HTTP/1.1" 200 -]
+[2026-03-26 01:02:49,275: INFO: _internal: 127.0.0.1 - - [26/Mar/2026 01:02:49] "GET / HTTP/1.1" 200 -]
+[2026-03-26 01:03:03,818: INFO: _internal: 127.0.0.1 - - [26/Mar/2026 01:03:03] "POST /predict HTTP/1.1" 200 -]
+[2026-03-26 01:03:09,151: INFO: _internal: 127.0.0.1 - - [26/Mar/2026 01:03:09] "POST /ai_sommelier HTTP/1.1" 200 -]
+[2026-03-26 01:03:32,486: INFO: _internal: 127.0.0.1 - - [26/Mar/2026 01:03:32] "GET / HTTP/1.1" 200 -]
+[2026-03-26 01:03:36,525: INFO: _internal: 127.0.0.1 - - [26/Mar/2026 01:03:36] "POST /predict HTTP/1.1" 200 -]
+[2026-03-26 01:03:38,686: INFO: _internal: 127.0.0.1 - - [26/Mar/2026 01:03:38] "GET / HTTP/1.1" 200 -]
+[2026-03-26 01:03:40,488: INFO: _internal: 127.0.0.1 - - [26/Mar/2026 01:03:40] "POST /predict HTTP/1.1" 200 -]
+[2026-03-26 01:03:47,149: INFO: _internal: 127.0.0.1 - - [26/Mar/2026 01:03:47] "POST /ai_sommelier HTTP/1.1" 200 -]
+[2026-03-26 01:03:55,115: INFO: _internal: 127.0.0.1 - - [26/Mar/2026 01:03:55] "GET / HTTP/1.1" 200 -]
+[2026-03-26 01:04:56,002: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.0.46:8080]
+[2026-03-26 01:04:56,002: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2026-03-26 01:04:58,710: INFO: _internal: 127.0.0.1 - - [26/Mar/2026 01:04:58] "GET / HTTP/1.1" 200 -]
+[2026-03-26 01:05:03,405: INFO: _internal: 127.0.0.1 - - [26/Mar/2026 01:05:03] "POST /predict HTTP/1.1" 200 -]
+[2026-03-26 01:05:08,342: INFO: _internal: 127.0.0.1 - - [26/Mar/2026 01:05:08] "POST /ai_sommelier HTTP/1.1" 200 -]
+[2026-03-26 01:05:29,161: INFO: _internal: 127.0.0.1 - - [26/Mar/2026 01:05:29] "GET / HTTP/1.1" 200 -]
+[2026-03-26 01:05:30,794: INFO: _internal: 127.0.0.1 - - [26/Mar/2026 01:05:30] "GET / HTTP/1.1" 200 -]
