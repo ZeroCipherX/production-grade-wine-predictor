@@ -1,3 +1,7 @@
 venv/
 logs/
 artifacts/
+.env/
+# secrets
+.env
+*.env

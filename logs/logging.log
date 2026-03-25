@@ -239,3 +239,592 @@ x==========x]
 [2026-03-25 03:26:36,013: INFO: main: >>>>>> stage Model Trainer stage completed <<<<<<
 
 x==========x]
+[2026-03-25 17:06:05,211: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2026-03-25 17:06:05,219: INFO: common: yaml file: params.yaml loaded successfully]
+[2026-03-25 17:06:05,223: INFO: common: yaml file: schema.yaml loaded successfully]
+[2026-03-25 17:06:05,228: INFO: common: created directory at: artifacts]
+[2026-03-25 17:06:20,968: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2026-03-25 17:06:20,971: INFO: common: yaml file: params.yaml loaded successfully]
+[2026-03-25 17:06:20,975: INFO: common: yaml file: schema.yaml loaded successfully]
+[2026-03-25 17:06:20,978: INFO: common: created directory at: artifacts]
+[2026-03-25 17:08:46,342: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2026-03-25 17:08:46,345: INFO: common: yaml file: params.yaml loaded successfully]
+[2026-03-25 17:08:46,348: INFO: common: yaml file: schema.yaml loaded successfully]
+[2026-03-25 17:08:46,350: INFO: common: created directory at: artifacts]
+[2026-03-25 17:08:46,351: INFO: common: created directory at: artifacts/model_evaluation]
+[2026-03-25 17:08:50,383: INFO: common: json file saved at: artifacts\model_evaluation\metrics.json]
+[2026-03-25 17:11:43,128: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2026-03-25 17:11:43,130: INFO: common: yaml file: params.yaml loaded successfully]
+[2026-03-25 17:11:43,134: INFO: common: yaml file: schema.yaml loaded successfully]
+[2026-03-25 17:11:43,135: INFO: common: created directory at: artifacts]
+[2026-03-25 17:11:43,137: INFO: common: created directory at: artifacts/model_evaluation]
+[2026-03-25 17:11:44,290: INFO: common: json file saved at: artifacts\model_evaluation\metrics.json]
+[2026-03-25 17:18:27,828: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2026-03-25 17:18:27,838: INFO: common: yaml file: params.yaml loaded successfully]
+[2026-03-25 17:18:27,841: INFO: common: yaml file: schema.yaml loaded successfully]
+[2026-03-25 17:18:27,847: INFO: common: created directory at: artifacts]
+[2026-03-25 17:18:27,849: INFO: common: created directory at: artifacts/model_evaluation]
+[2026-03-25 17:18:30,416: INFO: common: json file saved at: artifacts\model_evaluation\metrics.json]
+[2026-03-25 17:48:04,785: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2026-03-25 17:48:04,789: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2026-03-25 17:48:04,792: INFO: common: yaml file: params.yaml loaded successfully]
+[2026-03-25 17:48:04,793: INFO: common: yaml file: schema.yaml loaded successfully]
+[2026-03-25 17:48:04,793: INFO: common: created directory at: artifacts]
+[2026-03-25 17:48:04,794: INFO: common: created directory at: artifacts/data_ingestion]
+[2026-03-25 17:48:04,794: INFO: data_ingestion: File already exists]
+[2026-03-25 17:48:04,797: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2026-03-25 17:48:04,797: INFO: main: >>>>>> stage Data Validation stage started <<<<<<]
+[2026-03-25 17:48:04,799: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2026-03-25 17:48:04,800: INFO: common: yaml file: params.yaml loaded successfully]
+[2026-03-25 17:48:04,802: INFO: common: yaml file: schema.yaml loaded successfully]
+[2026-03-25 17:48:04,802: INFO: common: created directory at: artifacts]
+[2026-03-25 17:48:04,803: INFO: common: created directory at: artifacts/data_validation]
+[2026-03-25 17:48:04,819: INFO: main: >>>>>> stage Data Validation stage completed <<<<<<
+
+x==========x]
+[2026-03-25 17:48:04,819: INFO: main: >>>>>> stage Data Transformation stage started <<<<<<]
+[2026-03-25 17:48:04,822: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2026-03-25 17:48:04,823: INFO: common: yaml file: params.yaml loaded successfully]
+[2026-03-25 17:48:04,824: INFO: common: yaml file: schema.yaml loaded successfully]
+[2026-03-25 17:48:04,825: INFO: common: created directory at: artifacts]
+[2026-03-25 17:48:04,825: INFO: common: created directory at: artifacts/data_transformation]
+[2026-03-25 17:48:04,852: INFO: data_transformation: Splited data into training and test sets]
+[2026-03-25 17:48:04,853: INFO: data_transformation: (1199, 12)]
+[2026-03-25 17:48:04,853: INFO: data_transformation: (400, 12)]
+[2026-03-25 17:48:04,853: INFO: main: >>>>>> stage Data Transformation stage completed <<<<<<
+
+x==========x]
+[2026-03-25 17:48:04,853: INFO: main: >>>>>> stage Model Trainer stage started <<<<<<]
+[2026-03-25 17:48:04,856: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2026-03-25 17:48:04,856: INFO: common: yaml file: params.yaml loaded successfully]
+[2026-03-25 17:48:04,858: INFO: common: yaml file: schema.yaml loaded successfully]
+[2026-03-25 17:48:04,858: INFO: common: created directory at: artifacts]
+[2026-03-25 17:48:04,859: INFO: common: created directory at: artifacts/model_trainer]
+[2026-03-25 17:48:04,876: INFO: main: >>>>>> stage Model Trainer stage completed <<<<<<
+
+x==========x]
+[2026-03-25 17:48:04,876: INFO: main: >>>>>> stage Model evaluation stage started <<<<<<]
+[2026-03-25 17:48:04,878: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2026-03-25 17:48:04,879: INFO: common: yaml file: params.yaml loaded successfully]
+[2026-03-25 17:48:04,880: INFO: common: yaml file: schema.yaml loaded successfully]
+[2026-03-25 17:48:04,881: INFO: common: created directory at: artifacts]
+[2026-03-25 17:48:04,881: INFO: common: created directory at: artifacts/model_evaluation]
+[2026-03-25 17:48:09,641: INFO: common: json file saved at: artifacts\model_evaluation\metrics.json]
+[2026-03-25 17:48:14,542: ERROR: main: API request to endpoint /api/2.0/mlflow/registered-models/create failed with error code 403 != 200. Response body: '']
+Traceback (most recent call last):
+  File "C:\Users\saqib\OneDrive\Desktop\production-grade-wine-predictor\main.py", line 56, in <module>
+    data_ingestion.initiate_model_evaluation()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\saqib\OneDrive\Desktop\production-grade-wine-predictor\src\productiongradewinepredictor\pipeline\model_evaluation_pipeline.py", line 17, in initiate_model_evaluation
+    model_evaluation.log_into_mlflow()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\saqib\OneDrive\Desktop\production-grade-wine-predictor\src\productiongradewinepredictor\components\model_evaluation.py", line 61, in log_into_mlflow
+    mlflow.sklearn.log_model(model, "model", registered_model_name="ElasticnetModel")
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\saqib\OneDrive\Desktop\production-grade-wine-predictor\venv\Lib\site-packages\mlflow\sklearn\__init__.py", line 477, in log_model
+    return Model.log(
+           ~~~~~~~~~^
+        artifact_path=artifact_path,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<21 lines>...
+        **kwargs,
+        ^^^^^^^^^
+    )
+    ^
+  File "C:\Users\saqib\OneDrive\Desktop\production-grade-wine-predictor\venv\Lib\site-packages\mlflow\models\model.py", line 1357, in log
+    registered_model = mlflow.tracking._model_registry.fluent._register_model(
+        f"models:/{model.model_id}",
+    ...<2 lines>...
+        local_model_path=local_path,
+    )
+  File "C:\Users\saqib\OneDrive\Desktop\production-grade-wine-predictor\venv\Lib\site-packages\mlflow\tracking\_model_registry\fluent.py", line 179, in _register_model
+    raise e
+  File "C:\Users\saqib\OneDrive\Desktop\production-grade-wine-predictor\venv\Lib\site-packages\mlflow\tracking\_model_registry\fluent.py", line 168, in _register_model
+    create_model_response = client.create_registered_model(name)
+  File "C:\Users\saqib\OneDrive\Desktop\production-grade-wine-predictor\venv\Lib\site-packages\mlflow\tracking\client.py", line 3995, in create_registered_model
+    return self._get_registry_client().create_registered_model(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        name, tags, description, deployment_job_id
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\saqib\OneDrive\Desktop\production-grade-wine-predictor\venv\Lib\site-packages\mlflow\telemetry\track.py", line 30, in wrapper
+    result = func(*args, **kwargs)
+  File "C:\Users\saqib\OneDrive\Desktop\production-grade-wine-predictor\venv\Lib\site-packages\mlflow\tracking\_model_registry\client.py", line 96, in create_registered_model
+    return self.store.create_registered_model(name, tags, description, deployment_job_id)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\saqib\OneDrive\Desktop\production-grade-wine-predictor\venv\Lib\site-packages\mlflow\store\model_registry\rest_store.py", line 120, in create_registered_model
+    response_proto = self._call_endpoint(CreateRegisteredModel, req_body)
+  File "C:\Users\saqib\OneDrive\Desktop\production-grade-wine-predictor\venv\Lib\site-packages\mlflow\store\model_registry\rest_store.py", line 68, in _call_endpoint
+    return super()._call_endpoint(
+           ~~~~~~~~~~~~~~~~~~~~~~^
+        api,
+        ^^^^
+    ...<2 lines>...
+        extra_headers=extra_headers,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\saqib\OneDrive\Desktop\production-grade-wine-predictor\venv\Lib\site-packages\mlflow\store\model_registry\base_rest_store.py", line 42, in _call_endpoint
+    return call_endpoint(
+        self.get_host_creds(), endpoint, method, json_body, response_proto, extra_headers
+    )
+  File "C:\Users\saqib\OneDrive\Desktop\production-grade-wine-predictor\venv\Lib\site-packages\mlflow\utils\rest_utils.py", line 627, in call_endpoint
+    response = verify_rest_response(
+        response,
+        endpoint,
+        expected_status=expected_status,
+    )
+  File "C:\Users\saqib\OneDrive\Desktop\production-grade-wine-predictor\venv\Lib\site-packages\mlflow\utils\rest_utils.py", line 348, in verify_rest_response
+    raise MlflowException(
+    ...<2 lines>...
+    )
+mlflow.exceptions.MlflowException: API request to endpoint /api/2.0/mlflow/registered-models/create failed with error code 403 != 200. Response body: ''
+[2026-03-25 17:53:04,628: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2026-03-25 17:53:04,630: INFO: common: yaml file: params.yaml loaded successfully]
+[2026-03-25 17:53:04,633: INFO: common: yaml file: schema.yaml loaded successfully]
+[2026-03-25 17:53:04,633: INFO: common: created directory at: artifacts]
+[2026-03-25 17:53:04,634: INFO: common: created directory at: artifacts/model_evaluation]
+[2026-03-25 17:53:06,070: INFO: common: json file saved at: artifacts\model_evaluation\metrics.json]
+[2026-03-25 17:53:42,556: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2026-03-25 17:53:42,558: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2026-03-25 17:53:42,559: INFO: common: yaml file: params.yaml loaded successfully]
+[2026-03-25 17:53:42,560: INFO: common: yaml file: schema.yaml loaded successfully]
+[2026-03-25 17:53:42,560: INFO: common: created directory at: artifacts]
+[2026-03-25 17:53:42,560: INFO: common: created directory at: artifacts/data_ingestion]
+[2026-03-25 17:53:42,561: INFO: data_ingestion: File already exists]
+[2026-03-25 17:53:42,563: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2026-03-25 17:53:42,563: INFO: main: >>>>>> stage Data Validation stage started <<<<<<]
+[2026-03-25 17:53:42,565: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2026-03-25 17:53:42,565: INFO: common: yaml file: params.yaml loaded successfully]
+[2026-03-25 17:53:42,566: INFO: common: yaml file: schema.yaml loaded successfully]
+[2026-03-25 17:53:42,567: INFO: common: created directory at: artifacts]
+[2026-03-25 17:53:42,567: INFO: common: created directory at: artifacts/data_validation]
+[2026-03-25 17:53:42,575: INFO: main: >>>>>> stage Data Validation stage completed <<<<<<
+
+x==========x]
+[2026-03-25 17:53:42,575: INFO: main: >>>>>> stage Data Transformation stage started <<<<<<]
+[2026-03-25 17:53:42,577: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2026-03-25 17:53:42,578: INFO: common: yaml file: params.yaml loaded successfully]
+[2026-03-25 17:53:42,579: INFO: common: yaml file: schema.yaml loaded successfully]
+[2026-03-25 17:53:42,579: INFO: common: created directory at: artifacts]
+[2026-03-25 17:53:42,580: INFO: common: created directory at: artifacts/data_transformation]
+[2026-03-25 17:53:42,594: INFO: data_transformation: Splited data into training and test sets]
+[2026-03-25 17:53:42,595: INFO: data_transformation: (1199, 12)]
+[2026-03-25 17:53:42,595: INFO: data_transformation: (400, 12)]
+[2026-03-25 17:53:42,595: INFO: main: >>>>>> stage Data Transformation stage completed <<<<<<
+
+x==========x]
+[2026-03-25 17:53:42,595: INFO: main: >>>>>> stage Model Trainer stage started <<<<<<]
+[2026-03-25 17:53:42,597: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2026-03-25 17:53:42,598: INFO: common: yaml file: params.yaml loaded successfully]
+[2026-03-25 17:53:42,599: INFO: common: yaml file: schema.yaml loaded successfully]
+[2026-03-25 17:53:42,599: INFO: common: created directory at: artifacts]
+[2026-03-25 17:53:42,599: INFO: common: created directory at: artifacts/model_trainer]
+[2026-03-25 17:53:42,608: INFO: main: >>>>>> stage Model Trainer stage completed <<<<<<
+
+x==========x]
+[2026-03-25 17:53:42,608: INFO: main: >>>>>> stage Model evaluation stage started <<<<<<]
+[2026-03-25 17:53:42,610: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2026-03-25 17:53:42,611: INFO: common: yaml file: params.yaml loaded successfully]
+[2026-03-25 17:53:42,612: INFO: common: yaml file: schema.yaml loaded successfully]
+[2026-03-25 17:53:42,612: INFO: common: created directory at: artifacts]
+[2026-03-25 17:53:42,613: INFO: common: created directory at: artifacts/model_evaluation]
+[2026-03-25 17:53:43,721: INFO: common: json file saved at: artifacts\model_evaluation\metrics.json]
+[2026-03-25 17:53:48,154: ERROR: main: API request to endpoint /api/2.0/mlflow/registered-models/create failed with error code 403 != 200. Response body: '']
+Traceback (most recent call last):
+  File "C:\Users\saqib\OneDrive\Desktop\production-grade-wine-predictor\main.py", line 56, in <module>
+    data_ingestion.initiate_model_evaluation()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\saqib\OneDrive\Desktop\production-grade-wine-predictor\src\productiongradewinepredictor\pipeline\model_evaluation_pipeline.py", line 17, in initiate_model_evaluation
+    model_evaluation.log_into_mlflow()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\saqib\OneDrive\Desktop\production-grade-wine-predictor\src\productiongradewinepredictor\components\model_evaluation.py", line 61, in log_into_mlflow
+    mlflow.sklearn.log_model(model, "model", registered_model_name="ElasticnetModel")
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\saqib\OneDrive\Desktop\production-grade-wine-predictor\venv\Lib\site-packages\mlflow\sklearn\__init__.py", line 477, in log_model
+    return Model.log(
+           ~~~~~~~~~^
+        artifact_path=artifact_path,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<21 lines>...
+        **kwargs,
+        ^^^^^^^^^
+    )
+    ^
+  File "C:\Users\saqib\OneDrive\Desktop\production-grade-wine-predictor\venv\Lib\site-packages\mlflow\models\model.py", line 1357, in log
+    registered_model = mlflow.tracking._model_registry.fluent._register_model(
+        f"models:/{model.model_id}",
+    ...<2 lines>...
+        local_model_path=local_path,
+    )
+  File "C:\Users\saqib\OneDrive\Desktop\production-grade-wine-predictor\venv\Lib\site-packages\mlflow\tracking\_model_registry\fluent.py", line 179, in _register_model
+    raise e
+  File "C:\Users\saqib\OneDrive\Desktop\production-grade-wine-predictor\venv\Lib\site-packages\mlflow\tracking\_model_registry\fluent.py", line 168, in _register_model
+    create_model_response = client.create_registered_model(name)
+  File "C:\Users\saqib\OneDrive\Desktop\production-grade-wine-predictor\venv\Lib\site-packages\mlflow\tracking\client.py", line 3995, in create_registered_model
+    return self._get_registry_client().create_registered_model(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        name, tags, description, deployment_job_id
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\saqib\OneDrive\Desktop\production-grade-wine-predictor\venv\Lib\site-packages\mlflow\telemetry\track.py", line 30, in wrapper
+    result = func(*args, **kwargs)
+  File "C:\Users\saqib\OneDrive\Desktop\production-grade-wine-predictor\venv\Lib\site-packages\mlflow\tracking\_model_registry\client.py", line 96, in create_registered_model
+    return self.store.create_registered_model(name, tags, description, deployment_job_id)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\saqib\OneDrive\Desktop\production-grade-wine-predictor\venv\Lib\site-packages\mlflow\store\model_registry\rest_store.py", line 120, in create_registered_model
+    response_proto = self._call_endpoint(CreateRegisteredModel, req_body)
+  File "C:\Users\saqib\OneDrive\Desktop\production-grade-wine-predictor\venv\Lib\site-packages\mlflow\store\model_registry\rest_store.py", line 68, in _call_endpoint
+    return super()._call_endpoint(
+           ~~~~~~~~~~~~~~~~~~~~~~^
+        api,
+        ^^^^
+    ...<2 lines>...
+        extra_headers=extra_headers,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\saqib\OneDrive\Desktop\production-grade-wine-predictor\venv\Lib\site-packages\mlflow\store\model_registry\base_rest_store.py", line 42, in _call_endpoint
+    return call_endpoint(
+        self.get_host_creds(), endpoint, method, json_body, response_proto, extra_headers
+    )
+  File "C:\Users\saqib\OneDrive\Desktop\production-grade-wine-predictor\venv\Lib\site-packages\mlflow\utils\rest_utils.py", line 627, in call_endpoint
+    response = verify_rest_response(
+        response,
+        endpoint,
+        expected_status=expected_status,
+    )
+  File "C:\Users\saqib\OneDrive\Desktop\production-grade-wine-predictor\venv\Lib\site-packages\mlflow\utils\rest_utils.py", line 348, in verify_rest_response
+    raise MlflowException(
+    ...<2 lines>...
+    )
+mlflow.exceptions.MlflowException: API request to endpoint /api/2.0/mlflow/registered-models/create failed with error code 403 != 200. Response body: ''
+[2026-03-25 18:03:38,896: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2026-03-25 18:03:38,899: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2026-03-25 18:03:38,902: INFO: common: yaml file: params.yaml loaded successfully]
+[2026-03-25 18:03:38,903: INFO: common: yaml file: schema.yaml loaded successfully]
+[2026-03-25 18:03:38,904: INFO: common: created directory at: artifacts]
+[2026-03-25 18:03:38,904: INFO: common: created directory at: artifacts/data_ingestion]
+[2026-03-25 18:03:38,905: INFO: data_ingestion: File already exists]
+[2026-03-25 18:03:38,907: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2026-03-25 18:03:38,907: INFO: main: >>>>>> stage Data Validation stage started <<<<<<]
+[2026-03-25 18:03:38,909: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2026-03-25 18:03:38,909: INFO: common: yaml file: params.yaml loaded successfully]
+[2026-03-25 18:03:38,910: INFO: common: yaml file: schema.yaml loaded successfully]
+[2026-03-25 18:03:38,911: INFO: common: created directory at: artifacts]
+[2026-03-25 18:03:38,911: INFO: common: created directory at: artifacts/data_validation]
+[2026-03-25 18:03:38,928: INFO: main: >>>>>> stage Data Validation stage completed <<<<<<
+
+x==========x]
+[2026-03-25 18:03:38,928: INFO: main: >>>>>> stage Data Transformation stage started <<<<<<]
+[2026-03-25 18:03:38,930: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2026-03-25 18:03:38,930: INFO: common: yaml file: params.yaml loaded successfully]
+[2026-03-25 18:03:38,931: INFO: common: yaml file: schema.yaml loaded successfully]
+[2026-03-25 18:03:38,932: INFO: common: created directory at: artifacts]
+[2026-03-25 18:03:38,932: INFO: common: created directory at: artifacts/data_transformation]
+[2026-03-25 18:03:38,962: INFO: data_transformation: Splited data into training and test sets]
+[2026-03-25 18:03:38,962: INFO: data_transformation: (1199, 12)]
+[2026-03-25 18:03:38,962: INFO: data_transformation: (400, 12)]
+[2026-03-25 18:03:38,962: INFO: main: >>>>>> stage Data Transformation stage completed <<<<<<
+
+x==========x]
+[2026-03-25 18:03:38,962: INFO: main: >>>>>> stage Model Trainer stage started <<<<<<]
+[2026-03-25 18:03:38,964: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2026-03-25 18:03:38,965: INFO: common: yaml file: params.yaml loaded successfully]
+[2026-03-25 18:03:38,966: INFO: common: yaml file: schema.yaml loaded successfully]
+[2026-03-25 18:03:38,966: INFO: common: created directory at: artifacts]
+[2026-03-25 18:03:38,966: INFO: common: created directory at: artifacts/model_trainer]
+[2026-03-25 18:03:38,986: INFO: main: >>>>>> stage Model Trainer stage completed <<<<<<
+
+x==========x]
+[2026-03-25 18:03:38,986: INFO: main: >>>>>> stage Model evaluation stage started <<<<<<]
+[2026-03-25 18:03:38,988: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2026-03-25 18:03:38,989: INFO: common: yaml file: params.yaml loaded successfully]
+[2026-03-25 18:03:38,990: INFO: common: yaml file: schema.yaml loaded successfully]
+[2026-03-25 18:03:38,991: INFO: common: created directory at: artifacts]
+[2026-03-25 18:03:38,991: INFO: common: created directory at: artifacts/model_evaluation]
+[2026-03-25 18:03:40,275: INFO: common: json file saved at: artifacts\model_evaluation\metrics.json]
+[2026-03-25 18:03:45,522: ERROR: main: API request to endpoint /api/2.0/mlflow/registered-models/create failed with error code 403 != 200. Response body: '']
+Traceback (most recent call last):
+  File "C:\Users\saqib\OneDrive\Desktop\production-grade-wine-predictor\main.py", line 56, in <module>
+    data_ingestion.initiate_model_evaluation()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\saqib\OneDrive\Desktop\production-grade-wine-predictor\src\productiongradewinepredictor\pipeline\model_evaluation_pipeline.py", line 17, in initiate_model_evaluation
+    model_evaluation.log_into_mlflow()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\saqib\OneDrive\Desktop\production-grade-wine-predictor\src\productiongradewinepredictor\components\model_evaluation.py", line 61, in log_into_mlflow
+    mlflow.sklearn.log_model(model, "model", registered_model_name="ElasticnetModel")
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\saqib\OneDrive\Desktop\production-grade-wine-predictor\venv\Lib\site-packages\mlflow\sklearn\__init__.py", line 477, in log_model
+    return Model.log(
+           ~~~~~~~~~^
+        artifact_path=artifact_path,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<21 lines>...
+        **kwargs,
+        ^^^^^^^^^
+    )
+    ^
+  File "C:\Users\saqib\OneDrive\Desktop\production-grade-wine-predictor\venv\Lib\site-packages\mlflow\models\model.py", line 1357, in log
+    registered_model = mlflow.tracking._model_registry.fluent._register_model(
+        f"models:/{model.model_id}",
+    ...<2 lines>...
+        local_model_path=local_path,
+    )
+  File "C:\Users\saqib\OneDrive\Desktop\production-grade-wine-predictor\venv\Lib\site-packages\mlflow\tracking\_model_registry\fluent.py", line 179, in _register_model
+    raise e
+  File "C:\Users\saqib\OneDrive\Desktop\production-grade-wine-predictor\venv\Lib\site-packages\mlflow\tracking\_model_registry\fluent.py", line 168, in _register_model
+    create_model_response = client.create_registered_model(name)
+  File "C:\Users\saqib\OneDrive\Desktop\production-grade-wine-predictor\venv\Lib\site-packages\mlflow\tracking\client.py", line 3995, in create_registered_model
+    return self._get_registry_client().create_registered_model(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        name, tags, description, deployment_job_id
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\saqib\OneDrive\Desktop\production-grade-wine-predictor\venv\Lib\site-packages\mlflow\telemetry\track.py", line 30, in wrapper
+    result = func(*args, **kwargs)
+  File "C:\Users\saqib\OneDrive\Desktop\production-grade-wine-predictor\venv\Lib\site-packages\mlflow\tracking\_model_registry\client.py", line 96, in create_registered_model
+    return self.store.create_registered_model(name, tags, description, deployment_job_id)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\saqib\OneDrive\Desktop\production-grade-wine-predictor\venv\Lib\site-packages\mlflow\store\model_registry\rest_store.py", line 120, in create_registered_model
+    response_proto = self._call_endpoint(CreateRegisteredModel, req_body)
+  File "C:\Users\saqib\OneDrive\Desktop\production-grade-wine-predictor\venv\Lib\site-packages\mlflow\store\model_registry\rest_store.py", line 68, in _call_endpoint
+    return super()._call_endpoint(
+           ~~~~~~~~~~~~~~~~~~~~~~^
+        api,
+        ^^^^
+    ...<2 lines>...
+        extra_headers=extra_headers,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\saqib\OneDrive\Desktop\production-grade-wine-predictor\venv\Lib\site-packages\mlflow\store\model_registry\base_rest_store.py", line 42, in _call_endpoint
+    return call_endpoint(
+        self.get_host_creds(), endpoint, method, json_body, response_proto, extra_headers
+    )
+  File "C:\Users\saqib\OneDrive\Desktop\production-grade-wine-predictor\venv\Lib\site-packages\mlflow\utils\rest_utils.py", line 627, in call_endpoint
+    response = verify_rest_response(
+        response,
+        endpoint,
+        expected_status=expected_status,
+    )
+  File "C:\Users\saqib\OneDrive\Desktop\production-grade-wine-predictor\venv\Lib\site-packages\mlflow\utils\rest_utils.py", line 348, in verify_rest_response
+    raise MlflowException(
+    ...<2 lines>...
+    )
+mlflow.exceptions.MlflowException: API request to endpoint /api/2.0/mlflow/registered-models/create failed with error code 403 != 200. Response body: ''
+[2026-03-25 18:06:56,138: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2026-03-25 18:06:56,140: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2026-03-25 18:06:56,143: INFO: common: yaml file: params.yaml loaded successfully]
+[2026-03-25 18:06:56,144: INFO: common: yaml file: schema.yaml loaded successfully]
+[2026-03-25 18:06:56,145: INFO: common: created directory at: artifacts]
+[2026-03-25 18:06:56,145: INFO: common: created directory at: artifacts/data_ingestion]
+[2026-03-25 18:06:56,146: INFO: data_ingestion: File already exists]
+[2026-03-25 18:06:56,148: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2026-03-25 18:06:56,148: INFO: main: >>>>>> stage Data Validation stage started <<<<<<]
+[2026-03-25 18:06:56,149: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2026-03-25 18:06:56,150: INFO: common: yaml file: params.yaml loaded successfully]
+[2026-03-25 18:06:56,151: INFO: common: yaml file: schema.yaml loaded successfully]
+[2026-03-25 18:06:56,152: INFO: common: created directory at: artifacts]
+[2026-03-25 18:06:56,152: INFO: common: created directory at: artifacts/data_validation]
+[2026-03-25 18:06:56,161: INFO: main: >>>>>> stage Data Validation stage completed <<<<<<
+
+x==========x]
+[2026-03-25 18:06:56,162: INFO: main: >>>>>> stage Data Transformation stage started <<<<<<]
+[2026-03-25 18:06:56,164: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2026-03-25 18:06:56,165: INFO: common: yaml file: params.yaml loaded successfully]
+[2026-03-25 18:06:56,166: INFO: common: yaml file: schema.yaml loaded successfully]
+[2026-03-25 18:06:56,167: INFO: common: created directory at: artifacts]
+[2026-03-25 18:06:56,167: INFO: common: created directory at: artifacts/data_transformation]
+[2026-03-25 18:06:56,192: INFO: data_transformation: Splited data into training and test sets]
+[2026-03-25 18:06:56,192: INFO: data_transformation: (1199, 12)]
+[2026-03-25 18:06:56,192: INFO: data_transformation: (400, 12)]
+[2026-03-25 18:06:56,193: INFO: main: >>>>>> stage Data Transformation stage completed <<<<<<
+
+x==========x]
+[2026-03-25 18:06:56,193: INFO: main: >>>>>> stage Model Trainer stage started <<<<<<]
+[2026-03-25 18:06:56,196: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2026-03-25 18:06:56,197: INFO: common: yaml file: params.yaml loaded successfully]
+[2026-03-25 18:06:56,198: INFO: common: yaml file: schema.yaml loaded successfully]
+[2026-03-25 18:06:56,199: INFO: common: created directory at: artifacts]
+[2026-03-25 18:06:56,200: INFO: common: created directory at: artifacts/model_trainer]
+[2026-03-25 18:06:56,215: INFO: main: >>>>>> stage Model Trainer stage completed <<<<<<
+
+x==========x]
+[2026-03-25 18:06:56,215: INFO: main: >>>>>> stage Model evaluation stage started <<<<<<]
+[2026-03-25 18:06:56,217: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2026-03-25 18:06:56,218: INFO: common: yaml file: params.yaml loaded successfully]
+[2026-03-25 18:06:56,219: INFO: common: yaml file: schema.yaml loaded successfully]
+[2026-03-25 18:06:56,220: INFO: common: created directory at: artifacts]
+[2026-03-25 18:06:56,220: INFO: common: created directory at: artifacts/model_evaluation]
+[2026-03-25 18:06:57,526: INFO: common: json file saved at: artifacts\model_evaluation\metrics.json]
+[2026-03-25 18:07:01,758: INFO: main: >>>>>> stage Model evaluation stage completed <<<<<<
+
+x==========x]
+[2026-03-25 18:12:28,732: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2026-03-25 18:12:28,736: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2026-03-25 18:12:28,739: INFO: common: yaml file: params.yaml loaded successfully]
+[2026-03-25 18:12:28,741: INFO: common: yaml file: schema.yaml loaded successfully]
+[2026-03-25 18:12:28,742: INFO: common: created directory at: artifacts]
+[2026-03-25 18:12:28,742: INFO: common: created directory at: artifacts/data_ingestion]
+[2026-03-25 18:12:28,742: INFO: data_ingestion: File already exists]
+[2026-03-25 18:12:28,745: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2026-03-25 18:12:28,746: INFO: main: >>>>>> stage Data Validation stage started <<<<<<]
+[2026-03-25 18:12:28,747: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2026-03-25 18:12:28,748: INFO: common: yaml file: params.yaml loaded successfully]
+[2026-03-25 18:12:28,749: INFO: common: yaml file: schema.yaml loaded successfully]
+[2026-03-25 18:12:28,750: INFO: common: created directory at: artifacts]
+[2026-03-25 18:12:28,750: INFO: common: created directory at: artifacts/data_validation]
+[2026-03-25 18:12:28,772: INFO: main: >>>>>> stage Data Validation stage completed <<<<<<
+
+x==========x]
+[2026-03-25 18:12:28,772: INFO: main: >>>>>> stage Data Transformation stage started <<<<<<]
+[2026-03-25 18:12:28,774: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2026-03-25 18:12:28,774: INFO: common: yaml file: params.yaml loaded successfully]
+[2026-03-25 18:12:28,776: INFO: common: yaml file: schema.yaml loaded successfully]
+[2026-03-25 18:12:28,777: INFO: common: created directory at: artifacts]
+[2026-03-25 18:12:28,777: INFO: common: created directory at: artifacts/data_transformation]
+[2026-03-25 18:12:28,812: INFO: data_transformation: Splited data into training and test sets]
+[2026-03-25 18:12:28,812: INFO: data_transformation: (1199, 12)]
+[2026-03-25 18:12:28,812: INFO: data_transformation: (400, 12)]
+[2026-03-25 18:12:28,813: INFO: main: >>>>>> stage Data Transformation stage completed <<<<<<
+
+x==========x]
+[2026-03-25 18:12:28,813: INFO: main: >>>>>> stage Model Trainer stage started <<<<<<]
+[2026-03-25 18:12:28,815: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2026-03-25 18:12:28,816: INFO: common: yaml file: params.yaml loaded successfully]
+[2026-03-25 18:12:28,817: INFO: common: yaml file: schema.yaml loaded successfully]
+[2026-03-25 18:12:28,818: INFO: common: created directory at: artifacts]
+[2026-03-25 18:12:28,818: INFO: common: created directory at: artifacts/model_trainer]
+[2026-03-25 18:12:28,840: INFO: main: >>>>>> stage Model Trainer stage completed <<<<<<
+
+x==========x]
+[2026-03-25 18:12:28,841: INFO: main: >>>>>> stage Model evaluation stage started <<<<<<]
+[2026-03-25 18:12:28,843: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2026-03-25 18:12:28,843: INFO: common: yaml file: params.yaml loaded successfully]
+[2026-03-25 18:12:28,845: INFO: common: yaml file: schema.yaml loaded successfully]
+[2026-03-25 18:12:28,846: INFO: common: created directory at: artifacts]
+[2026-03-25 18:12:28,846: INFO: common: created directory at: artifacts/model_evaluation]
+[2026-03-25 18:12:31,028: INFO: common: json file saved at: artifacts\model_evaluation\metrics.json]
+[2026-03-25 18:12:46,795: INFO: main: >>>>>> stage Model evaluation stage completed <<<<<<
+
+x==========x]
+[2026-03-25 18:13:12,458: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2026-03-25 18:13:12,460: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2026-03-25 18:13:12,461: INFO: common: yaml file: params.yaml loaded successfully]
+[2026-03-25 18:13:12,462: INFO: common: yaml file: schema.yaml loaded successfully]
+[2026-03-25 18:13:12,462: INFO: common: created directory at: artifacts]
+[2026-03-25 18:13:12,462: INFO: common: created directory at: artifacts/data_ingestion]
+[2026-03-25 18:13:12,463: INFO: data_ingestion: File already exists]
+[2026-03-25 18:13:12,464: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2026-03-25 18:13:12,464: INFO: main: >>>>>> stage Data Validation stage started <<<<<<]
+[2026-03-25 18:13:12,466: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2026-03-25 18:13:12,466: INFO: common: yaml file: params.yaml loaded successfully]
+[2026-03-25 18:13:12,467: INFO: common: yaml file: schema.yaml loaded successfully]
+[2026-03-25 18:13:12,467: INFO: common: created directory at: artifacts]
+[2026-03-25 18:13:12,468: INFO: common: created directory at: artifacts/data_validation]
+[2026-03-25 18:13:12,476: INFO: main: >>>>>> stage Data Validation stage completed <<<<<<
+
+x==========x]
+[2026-03-25 18:13:12,476: INFO: main: >>>>>> stage Data Transformation stage started <<<<<<]
+[2026-03-25 18:13:12,478: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2026-03-25 18:13:12,478: INFO: common: yaml file: params.yaml loaded successfully]
+[2026-03-25 18:13:12,479: INFO: common: yaml file: schema.yaml loaded successfully]
+[2026-03-25 18:13:12,480: INFO: common: created directory at: artifacts]
+[2026-03-25 18:13:12,480: INFO: common: created directory at: artifacts/data_transformation]
+[2026-03-25 18:13:12,496: INFO: data_transformation: Splited data into training and test sets]
+[2026-03-25 18:13:12,496: INFO: data_transformation: (1199, 12)]
+[2026-03-25 18:13:12,496: INFO: data_transformation: (400, 12)]
+[2026-03-25 18:13:12,496: INFO: main: >>>>>> stage Data Transformation stage completed <<<<<<
+
+x==========x]
+[2026-03-25 18:13:12,496: INFO: main: >>>>>> stage Model Trainer stage started <<<<<<]
+[2026-03-25 18:13:12,499: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2026-03-25 18:13:12,500: INFO: common: yaml file: params.yaml loaded successfully]
+[2026-03-25 18:13:12,501: INFO: common: yaml file: schema.yaml loaded successfully]
+[2026-03-25 18:13:12,501: INFO: common: created directory at: artifacts]
+[2026-03-25 18:13:12,503: INFO: common: created directory at: artifacts/model_trainer]
+[2026-03-25 18:13:12,511: INFO: main: >>>>>> stage Model Trainer stage completed <<<<<<
+
+x==========x]
+[2026-03-25 18:13:12,511: INFO: main: >>>>>> stage Model evaluation stage started <<<<<<]
+[2026-03-25 18:13:12,513: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2026-03-25 18:13:12,514: INFO: common: yaml file: params.yaml loaded successfully]
+[2026-03-25 18:13:12,515: INFO: common: yaml file: schema.yaml loaded successfully]
+[2026-03-25 18:13:12,516: INFO: common: created directory at: artifacts]
+[2026-03-25 18:13:12,516: INFO: common: created directory at: artifacts/model_evaluation]
+[2026-03-25 18:13:14,240: INFO: common: json file saved at: artifacts\model_evaluation\metrics.json]
+[2026-03-25 18:13:30,030: INFO: main: >>>>>> stage Model evaluation stage completed <<<<<<
+
+x==========x]
+[2026-03-25 18:42:07,046: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2026-03-25 18:42:07,051: INFO: common: yaml file: params.yaml loaded successfully]
+[2026-03-25 18:42:07,053: INFO: common: yaml file: schema.yaml loaded successfully]
+[2026-03-25 18:42:07,054: INFO: common: created directory at: artifacts]
+[2026-03-25 18:42:07,055: INFO: common: created directory at: artifacts/model_evaluation]
+[2026-03-25 18:42:08,823: INFO: common: json file saved at: artifacts\model_evaluation\metrics.json]
+[2026-03-25 18:43:57,460: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2026-03-25 18:43:57,462: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2026-03-25 18:43:57,463: INFO: common: yaml file: params.yaml loaded successfully]
+[2026-03-25 18:43:57,464: INFO: common: yaml file: schema.yaml loaded successfully]
+[2026-03-25 18:43:57,464: INFO: common: created directory at: artifacts]
+[2026-03-25 18:43:57,465: INFO: common: created directory at: artifacts/data_ingestion]
+[2026-03-25 18:43:57,465: INFO: data_ingestion: File already exists]
+[2026-03-25 18:43:57,467: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2026-03-25 18:43:57,467: INFO: main: >>>>>> stage Data Validation stage started <<<<<<]
+[2026-03-25 18:43:57,468: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2026-03-25 18:43:57,469: INFO: common: yaml file: params.yaml loaded successfully]
+[2026-03-25 18:43:57,470: INFO: common: yaml file: schema.yaml loaded successfully]
+[2026-03-25 18:43:57,470: INFO: common: created directory at: artifacts]
+[2026-03-25 18:43:57,470: INFO: common: created directory at: artifacts/data_validation]
+[2026-03-25 18:43:57,479: INFO: main: >>>>>> stage Data Validation stage completed <<<<<<
+
+x==========x]
+[2026-03-25 18:43:57,479: INFO: main: >>>>>> stage Data Transformation stage started <<<<<<]
+[2026-03-25 18:43:57,480: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2026-03-25 18:43:57,481: INFO: common: yaml file: params.yaml loaded successfully]
+[2026-03-25 18:43:57,482: INFO: common: yaml file: schema.yaml loaded successfully]
+[2026-03-25 18:43:57,483: INFO: common: created directory at: artifacts]
+[2026-03-25 18:43:57,483: INFO: common: created directory at: artifacts/data_transformation]
+[2026-03-25 18:43:57,504: INFO: data_transformation: Splited data into training and test sets]
+[2026-03-25 18:43:57,504: INFO: data_transformation: (1199, 12)]
+[2026-03-25 18:43:57,504: INFO: data_transformation: (400, 12)]
+[2026-03-25 18:43:57,504: INFO: main: >>>>>> stage Data Transformation stage completed <<<<<<
+
+x==========x]
+[2026-03-25 18:43:57,504: INFO: main: >>>>>> stage Model Trainer stage started <<<<<<]
+[2026-03-25 18:43:57,506: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2026-03-25 18:43:57,507: INFO: common: yaml file: params.yaml loaded successfully]
+[2026-03-25 18:43:57,508: INFO: common: yaml file: schema.yaml loaded successfully]
+[2026-03-25 18:43:57,509: INFO: common: created directory at: artifacts]
+[2026-03-25 18:43:57,509: INFO: common: created directory at: artifacts/model_trainer]
+[2026-03-25 18:43:57,523: INFO: main: >>>>>> stage Model Trainer stage completed <<<<<<
+
+x==========x]
+[2026-03-25 18:43:57,524: INFO: main: >>>>>> stage Model evaluation stage started <<<<<<]
+[2026-03-25 18:43:57,525: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2026-03-25 18:43:57,526: INFO: common: yaml file: params.yaml loaded successfully]
+[2026-03-25 18:43:57,527: INFO: common: yaml file: schema.yaml loaded successfully]
+[2026-03-25 18:43:57,528: INFO: common: created directory at: artifacts]
+[2026-03-25 18:43:57,528: INFO: common: created directory at: artifacts/model_evaluation]
+[2026-03-25 18:44:34,673: INFO: common: json file saved at: artifacts\model_evaluation\metrics.json]
+[2026-03-25 18:44:50,121: INFO: main: >>>>>> stage Model evaluation stage completed <<<<<<
+
+x==========x]
