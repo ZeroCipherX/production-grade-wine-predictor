@@ -34,8 +34,10 @@ jobs:
           username: ubuntu
           key: ${{ secrets.EC2_SSH_KEY }}
           script: |
-            docker pull zerocipherx/wine-predictor:latest
-            docker stop wine-prod || true
-            docker rm wine-prod || true
-            # Yahan hum existing .env file use kar rahe hain jo EC2 par pehle se hai
-            docker run -d -p 80:8080 --name wine-prod --env-file ~/production-grade-wine-predictor/.env zerocipherx/wine-predictor:latest
+            # Use sudo for all docker commands to avoid permission issues
+            sudo docker pull zerocipherx/wine-predictor:latest
+            sudo docker stop wine-prod || true
+            sudo docker rm wine-prod || true
+            
+            # Pointing to the .env file in your project folder
+            sudo docker run -d -p 80:8080 --name wine-prod --env-file ~/production-grade-wine-predictor/.env zerocipherx/wine-predictor:latest

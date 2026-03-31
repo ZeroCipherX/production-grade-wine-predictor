@@ -1219,3 +1219,27 @@ x==========x]
 [2026-03-31 19:06:46,721: INFO: _internal: 127.0.0.1 - - [31/Mar/2026 19:06:46] "POST /predict HTTP/1.1" 200 -]
 [2026-03-31 19:06:49,614: INFO: _internal: 127.0.0.1 - - [31/Mar/2026 19:06:49] "GET / HTTP/1.1" 200 -]
 [2026-03-31 19:06:52,338: INFO: _internal: 127.0.0.1 - - [31/Mar/2026 19:06:52] "POST /predict HTTP/1.1" 200 -]
+[2026-03-31 21:09:48,482: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.100.32:8080]
+[2026-03-31 21:09:48,484: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2026-03-31 21:09:51,229: INFO: _internal: 127.0.0.1 - - [31/Mar/2026 21:09:51] "GET / HTTP/1.1" 200 -]
+[2026-03-31 21:10:06,746: INFO: _internal: 127.0.0.1 - - [31/Mar/2026 21:10:06] "POST /predict HTTP/1.1" 200 -]
+[2026-03-31 21:11:44,739: INFO: _internal: 127.0.0.1 - - [31/Mar/2026 21:11:44] "GET / HTTP/1.1" 200 -]
+[2026-03-31 21:11:46,868: INFO: _internal: 127.0.0.1 - - [31/Mar/2026 21:11:46] "GET / HTTP/1.1" 200 -]
+[2026-03-31 21:11:49,073: INFO: _internal: 127.0.0.1 - - [31/Mar/2026 21:11:49] "GET / HTTP/1.1" 200 -]
+[2026-03-31 21:11:49,811: INFO: _internal: 127.0.0.1 - - [31/Mar/2026 21:11:49] "GET / HTTP/1.1" 200 -]
+[2026-03-31 21:11:50,063: INFO: _internal: 127.0.0.1 - - [31/Mar/2026 21:11:50] "GET / HTTP/1.1" 200 -]
+[2026-03-31 21:11:50,474: INFO: _internal: 127.0.0.1 - - [31/Mar/2026 21:11:50] "GET / HTTP/1.1" 200 -]
+[2026-03-31 21:11:59,315: INFO: _internal: 127.0.0.1 - - [31/Mar/2026 21:11:59] "GET / HTTP/1.1" 200 -]
+[2026-03-31 21:11:59,805: INFO: _internal: 127.0.0.1 - - [31/Mar/2026 21:11:59] "GET / HTTP/1.1" 200 -]
+[2026-03-31 21:11:59,984: INFO: _internal: 127.0.0.1 - - [31/Mar/2026 21:11:59] "GET / HTTP/1.1" 200 -]
+[2026-03-31 21:12:00,213: INFO: _internal: 127.0.0.1 - - [31/Mar/2026 21:12:00] "GET / HTTP/1.1" 200 -]
+[2026-03-31 21:12:08,528: INFO: _internal: 127.0.0.1 - - [31/Mar/2026 21:12:08] "GET / HTTP/1.1" 200 -]
+[2026-03-31 21:12:35,544: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.100.32:8080]
+[2026-03-31 21:12:35,544: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2026-03-31 21:12:38,037: INFO: _internal: 127.0.0.1 - - [31/Mar/2026 21:12:38] "GET / HTTP/1.1" 200 -]
