@@ -1,5 +1,6 @@
 from flask import Flask, render_template, request, jsonify
 import os
+from mlflow.models import predict
 import numpy as np
 from src.productiongradewinepredictor.pipeline.prediction_pipeline import PredictionPipeline
 import requests
@@ -66,7 +67,9 @@ def index():
             obj = PredictionPipeline()
             predict = obj.predict(data)
 
-            return render_template('results.html', prediction = str(predict))
+            # Grabs the number, rounds it to 1 decimal place, and makes it a clean string
+            clean_prediction = round(float(predict[0]), 1)
+            return render_template('results.html', prediction = clean_prediction)
 
         except Exception as e:
             print('The Exception message is: ',e)
